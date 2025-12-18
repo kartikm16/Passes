@@ -12,8 +12,7 @@ import LiquidEffect from './pages/LiquidEffect';
 
 const App = () => {
   return (
-   <Router> <div style={{ width: '100%', height: 600, position: 'relative' }}>
-
+   <Router> <div className="relative min-h-screen w-full overflow-x-hidden">
    <LiquidEther
     colors={[ '#2937ff', '#2937ff', '#c2bfd9' ]}
     mouseForce={20}
@@ -43,7 +42,7 @@ const App = () => {
       <div className="wave-overlay"></div> */}
 
 
-
+ 
       {/* <PersistentFish /> */}
       {Array.from({ length: 5 }).map((_, i) => (
         <InteractiveFish key={i} id={i} />
@@ -73,47 +72,31 @@ const App = () => {
       
       <main className="flex-grow pt-40 pb-20 px-4 md:px-8 relative z-10">
         <div className="max-w-7xl mx-auto">
-          <section className="text-center mb-32 relative">
-            <div className="absolute -top-20 left-1/2 -translate-x-1/2 w-full max-w-4xl h-96 bg-cyan-500/10 blur-[150px] rounded-full -z-10"></div>
+          <section className="text-center mb-16 sm:mb-24 md:mb-32 relative">
+  <div className="absolute -top-20 left-1/2 -translate-x-1/2 w-full max-w-4xl h-64 sm:h-80 bg-cyan-500/10 blur-[120px] rounded-full -z-10" />
 
-            <span className="text-cyan-400 font-orbitron text-xs tracking-[1em] uppercase block">
-              Waves of Atlantis
-            </span>
 
-            <h1
+
+  <h1
   className="
-    relative
-    text-7xl md:text-[12rem]
-    font-cinzel font-extrabold
+    font-cinzel font-bold text-white
+    text-6xl sm:text-7xl md:text-[10rem]
     tracking-[0.15em]
-    text-transparent bg-clip-text
-    bg-gradient-to-b from-cyan-200 via-cyan-400 to-blue-700
-    drop-shadow-[0_10px_40px_rgba(0,255,255,0.25)]
+    drop-shadow-[0_0_12px_rgba(34,211,238,0.65)]
   "
 >
   PASSES
-
-  {/* Soft glow aura */}
-  <span
-    className="
-      absolute inset-0
-      text-cyan-400/30
-      blur-2xl
-      -z-10
-      tracking-[0.15em]
-    "
-  >
-    PASSES
-  </span>
 </h1>
 
-          </section>
+</section>
 
-          <section className="space-y-24">
-            {PASSES.map((pass) => (
-              <PassCard key={pass.id} pass={pass} />
-            ))}
-          </section>
+
+          <section className="space-y-10 sm:space-y-16 md:space-y-24">
+  {PASSES.map((pass) => (
+    <PassCard key={pass.id} pass={pass} />
+  ))}
+</section>
+
         </div>
       </main>
 
