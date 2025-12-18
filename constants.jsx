@@ -5,7 +5,7 @@ export const PASSES = [
     date: '7TH FEBRUARY 2025',
     location: 'PILLAI COLLEGE, NAVI MUMBAI',
     type: 'concert',
-     image: 'https://picsum.photos/seed/krsna/400/600'
+     image: 'https://alegria.co.in/_next/image?url=%2FArtists%2Fpass-2024.png&w=2048&q=75'
     // artists: [
     //   { name: 'Kr$na', image: 'https://picsum.photos/seed/krsna/400/600' },
     //   { name: 'Raghav Chaitanya', image: 'https://picsum.photos/seed/raghav/400/600' },
@@ -17,7 +17,7 @@ export const PASSES = [
     date: '8TH FEBRUARY 2025',
     location: 'PILLAI COLLEGE, NAVI MUMBAI',
     type: 'dj',
-    image: 'https://picsum.photos/seed/lost/400/600',
+    image: 'https://alegria.co.in/_next/image?url=%2FArtists%2Fdj_pass.png&w=2048&q=75',
     // artists: [
     //   { name: 'LOST STORIES', image: 'https://picsum.photos/seed/lost/400/600' },
     //   { name: 'DJ CHETAS', image: 'https://picsum.photos/seed/chetas/400/600' },
@@ -30,7 +30,7 @@ export const PASSES = [
     location: 'PILLAI COLLEGE, NAVI MUMBAI',
     type: 'combo',
     tagline: 'TWO DAY COMBO PASSES',
-    image: 'https://picsum.photos/seed/krsna/300/300'
+    image: 'https://alegria.co.in/_next/image?url=%2FArtists%2Fcombo_pass.png&w=2048&q=75'
     // artists: [
     //   { name: 'Kr$na', image: 'https://picsum.photos/seed/krsna/300/300' },
     //   { name: 'Raghav', image: 'https://picsum.photos/seed/raghav/300/300' },
